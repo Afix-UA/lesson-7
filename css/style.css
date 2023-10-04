@@ -1,0 +1,224 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* підключення шрифтів */
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@700&display=swap');
+
+
+/* Основні стилі */
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 100px;
+}
+
+.wpapper {
+    margin: 0 auto;
+    max-width: 1248px;
+    padding: 0px 15px;
+}
+
+
+/* ====licencind===== */
+.licencind {
+    
+    text-align: center;
+    margin: 0 0 122px 0;
+}
+
+.licencind .lebel {
+    display: inline-block;
+    color: #37393F;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.licencind .title,
+.licencind h1,
+.licencind h2,
+.licencind h3,
+.licencind h4,
+.licencind h5,
+.licencind h6,
+.title {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.21;
+}
+
+.licencind h2 {
+    margin-bottom: 11px;
+    font-size: 40px;
+}
+
+.licencind h3 {
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+.licencind a {
+    color: #40DDB6;
+}
+
+.licencind .link {
+    color: #40DDB6;
+    line-height: 1.46;
+}
+
+.licencind .title {
+    margin-bottom: 144px;
+    font-size: 60px;
+}
+
+.licencind .licencind-content {
+    text-align: left;
+}
+
+.licencind .licencind-item {
+    margin-bottom: 32px;
+    min-height: 110px;
+}
+
+/* ====projectInformation===== */
+
+
+.projectInformation {
+    margin: 0 auto;
+    max-width: 830px;
+    color: #7D7D7D;
+    line-height: 1.46;
+    margin-bottom: 190px;
+}
+.projectInformation p,
+.projectInformation ul,
+.projectInformation ol, 
+.projectInformation li {
+    margin-bottom: 35px;
+}
+.projectInformation ol,
+.projectInformation ul {
+    font-weight: 500;
+    margin-left: 50px ;
+}
+.title {
+    line-height: 1.27;
+    font-size: 40px;
+    margin-bottom: 13px;
+}
+/* ====euphoria===== */
+
+
+.euphoria {
+    max-width: 1239px;
+    padding: 0px 15px;
+    color: #807D7E;
+    font-size: 20px;
+    font-family: "Causten", serif;
+    font-weight: 400;
+    line-height: 1.67;
+    margin-bottom: 100px;
+
+}
+.euphoria .title {
+    border-left: 6px solid #8A33FD ;
+    padding-left: 15px;
+    margin-left: -15px;
+    margin-bottom: 30px;
+
+    color: #3C4242;
+    font-size: 28px;
+    font-family: "CoreSansC", serif;
+    font-weight: 600;
+    line-height: 1.19; /* 33.50/28 */
+    letter-spacing: 0.56px;
+}
+.euphoria .subtitle {
+    margin-bottom: 25px;
+    color: #807D7E;
+    font-size: 20px;
+    font-family: "CoreSansC", serif;
+    font-weight: 600;
+    letter-spacing: 0.40px
+}
+.euphoria p {
+    margin-bottom: 25px;
+}
+.euphoria a {
+    font-family: "CoreSansC", serif;
+    font-weight: 600;
+    
+}
+
+/* ====jewels===== */
+.jewels {
+    padding:0  35px 0 35px;
+    max-width: 1173px;
+    font-size: 0;
+    color: #606060;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 700;
+}
+.jewels p {
+    
+    font-size: 30px;
+}
+.jewels-content {
+    display: inline-block;
+    max-width: 495px;
+    margin-top: 70px;
+    margin-right: 89px;
+}
+.jewels .lebel {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 20px;
+    color: #D58417;
+    margin-bottom: 27px;
+
+}
+.jewels .title {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 64px;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 31px;
+}
+.jewels-image {
+    vertical-align: top;
+    display: inline-block;
+    
+}
+.jewels .image {
+    max-width: 325px;
+    vertical-align:middle;
+    display: inline-block;
+    border-radius: 258px;
+    border: 1px #502203 solid
+}
+.image:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.jewels .image img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.jewels .small {
+    border-radius: 235px;
+    margin: 14px 10px -14px -10px ;
+}
+.jewels .big {
+    border-radius: 258px;
+    margin: 19px 11px -13px -10px ;
+}
+
+
